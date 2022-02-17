@@ -3,7 +3,11 @@
 	text-align: center;
 	font-size: 40px;
 	color: red;
-	
+	transition: 1.5 sec ease;
+}
+#h2:hover {
+	font-size: 50px;
+	color: pink;	
 }
 #h3 {
 	text-align: center;
