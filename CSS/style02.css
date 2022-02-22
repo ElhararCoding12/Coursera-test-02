@@ -1,9 +1,12 @@
 
+.header {
+	background: #f6b319;
+	padding: 10px;
+	display: flex;/**/
+	color: white;
+}
 #h1 { 
-	background: #457209;
-	color: #FFCC99;
-
-
+	color: white;
 }
 
 #h2 {
@@ -21,15 +24,176 @@
 	font-size: 35px;
 	color: #0D903D;
 
+
 }
-.div01 {
-	background: #E68B14;
+#h4 {
+	color: white;
+	font-size: 50px;
+	text-align: center;
+
+}
+#h5 {
+	
+
+}
+#h6{ 
 	font-size: 25px;
 	color: white;
 	text-align: center;
 
+
+}
+#h7{
+	font-size: 25px;
+	color: white;
+	text-align: center;
 }
 
-@media (min-width: ) {
+.div01 {
+	background: #E68B14;
+	font-size: 25px;
+	color: white;
+	padding: 10px;
+	min-height: 100vh;
 
+}
+.headerContainer{
+	text-align: center;
+}
+
+.logo{
+	flex: 2;
+}
+.name{
+	flex: 6;
+}
+.menus {
+	flex:  2;
+
+}
+.li {
+
+}
+
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu_container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+	
+
+
+
+/* Mobile */
+@media (min-width: 250px) { 
+	.navbar-toggle{
+		display: block;
+	}
+	.menu-bar{
+		display: none;
+	}
+}
+
+
+/* Mobile mediium */
+@media (min-width: 375px) {
+	.navbar-toggle{
+		display: block;
+	}
+	.menu-bar{
+		display: none;
+	}
+
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+	.navbar-toggle{
+		display: none;
+	}
+	.menu-bar{ 
+		display: flex;
+		color: white;
+		padding: 25px;
+		font-size: 20px;
+		text-decoration: none;
+	}
+	
+
+}
+
+#menu, #menu ul
+{
+	list-style: none;
+	background: #f6b319;
+	
+	padding: 0 0 26px 0;
+	margin: 0;
+}
+#menu li
+{
+	color: white;
+	float: left;
+	margin-right: 3px;
+	border: 1px solid #ecffec;
+	position: relative;
+}
+#menu ul
+{
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	width: 200px;
+	padding: 0;
+	display: none;
+}
+#menu ul li
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+}
+#menu a:link, #menu a:visited
+{
+	display: block;
+	font-family: Tahoma;
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+#menu li:hover
+{
+	background-color: #ffd98a;
+	border: 1px solid #000;
+}
+#menu li:hover ul
+{
+	display: block;
 }
