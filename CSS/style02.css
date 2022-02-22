@@ -48,7 +48,11 @@
 	color: white;
 	text-align: center;
 }
-
+#h8 {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
 .div01 {
 	background: #E68B14;
 	font-size: 25px;
